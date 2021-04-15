@@ -15,12 +15,12 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent)
     timer = new Clock;
 
     // icons
-    QPixmap idleP("C:/Users/hidde/Documents/GitHub/Minesweeper/img source/idle.png");
-    QPixmap gameoverP("C:/Users/hidde/Documents/GitHub/Minesweeper/img source/gameover.png");
-    QPixmap gamewinP("C:/Users/hidde/Documents/GitHub/Minesweeper/img source/gamewin.png");
-    QPixmap flagP("C:/Users/hidde/Documents/GitHub/Minesweeper/img source/flag.png");
-    QPixmap mine1P("C:/Users/hidde/Documents/GitHub/Minesweeper/img source/mineActiveProc.png");
-    QPixmap mine2P("C:/Users/hidde/Documents/GitHub/Minesweeper/img source/minePassiveProc.png");
+    QPixmap idleP("C:/Users/hidde/Documents/GitHub/Labor6-plusz-pont-Minesweeper/img source/idle.png");
+    QPixmap gameoverP("C:/Users/hidde/Documents/GitHub/Labor6-plusz-pont-Minesweeper/img source/gameover.png");
+    QPixmap gamewinP("C:/Users/hidde/Documents/GitHub/Labor6-plusz-pont-Minesweeper/img source/gamewin.png");
+    QPixmap flagP("C:/Users/hidde/Documents/GitHub/Labor6-plusz-pont-Minesweeper/img source/flag.png");
+    QPixmap mine1P("C:/Users/hidde/Documents/GitHub/Labor6-plusz-pont-Minesweeper/img source/mineActiveProc.png");
+    QPixmap mine2P("C:/Users/hidde/Documents/GitHub/Labor6-plusz-pont-Minesweeper/img source/minePassiveProc.png");
     idle.addPixmap(idleP); gameover.addPixmap(gameoverP); gamewin.addPixmap(gamewinP); flag.addPixmap(flagP); mine1.addPixmap(mine1P); mine2.addPixmap(mine2P);
     setWindowIcon(mine2);
 
